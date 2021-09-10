@@ -1,0 +1,18 @@
+{
+  "name": "khidir-swap-periphery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@KhidirProject/khidir-swap-core": "git+https://github.com/KhidirProject/khidir-swap-core.git",
+    "@KhidirProject/khidir-swap-lib": "git+https://github.com/KhidirProject/khidir-swap-lib.git",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "khidir-swap-core": "git+https://github.com/KhidirProject/khidir-swap-core.git"
+  }
+}
